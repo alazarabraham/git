@@ -1,1 +1,50 @@
-/* You can add global styles to this file, and also import other style files */
+a {
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.liveAlert {
+  background-color: red;
+  height: auto;
+  margin-top: 5%;
+  border-radius: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 2px 6px;
+  font-size: 12px;
+}
+
+.featuredAlert {
+  background-color: #2b2b2b;
+  color: white;
+  height: auto;
+  margin-top: 5%;
+  border-radius: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 2px 6px;
+  font-size: 12px;
+}
+
+.newAlert {
+  background-color: #2481be;
+  color: white;
+  border: 1px solid white;
+  font-weight: 500;
+  height: auto;
+  border-radius: 5px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 2px 6px;
+  font-size: 12px;
+}
+
+.newCard {
+  background: #000514;
+  width: 400px;
+  height: auto;
+  overflow: hidden;
+}

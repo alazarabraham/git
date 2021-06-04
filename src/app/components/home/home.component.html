@@ -1,0 +1,105 @@
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row d-flex justify-content-around">
+                <div class="col-md-10">
+                    <p class="liveAlert text-center">Live</p> 
+                </div>
+                <div class="col-md-10 mt-4">
+                    <img src="https://assets.foxdcg.com/dpp-uploaded/images/crime-scene-kitchen/crime-scene-kitchen_01/logo-tab_s1.png?fit=inside%7C*:100" alt=""> 
+                </div>
+                <div class="col-md-10 mt-4">
+                    <small class="text-center">Watch the season six premier tonight at 8/7C</small> 
+                </div>
+                <div class="col-md-10 mt-4">
+                    <h6>
+                        S1 Ep 2 Meet the neighbors
+                    </h6>               
+                </div>
+                <div class="col-md-10 mt-4">
+                    <button class="btn mr-2" style="background: #001c70;">
+                        <i class="fa fa-play mr-1"></i>
+                        Watch Now
+                    </button>
+                    <button class="btn">More Episodes</button>
+                </div>
+               
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row d-flex justify-content-around">
+                <div class="col-md-10">
+                    <p class="featuredAlert text-center">Featured</p> 
+                </div>
+                <div class="col-md-10 mt-4">
+                    <img src="https://assets.foxdcg.com/dpp-uploaded/images/masterchef/masterchef_11/logo-tab_s12.png?fit=inside%7C*:100" alt=""> 
+                </div>
+                <div class="col-md-10 mt-4">
+                    <small class="text-center">Watch the season six premier tonight at 8/7C</small> 
+                </div>
+                <div class="col-md-10 mt-4">
+                    <h6>
+                        S1 Ep 2 Meet the neighbors
+                    </h6>               
+                </div>
+                <div class="col-md-10 mt-4">
+                    <button class="btn mr-2" style="background: #001c70;">
+                        <i class="fa fa-play mr-1"></i>
+                        Watch Now
+                    </button>
+                    <button class="btn">More Episodes</button>
+                </div>
+               
+            </div>
+          </div>
+    
+        </div>
+        <a class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <!-- <i class="fa fa-chevron-left" aria-hidden="true"></i> -->
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+        </a>
+        <a class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <!-- <i class="fa fa-chevron-right" aria-hidden="true"></i> -->
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+</div>
+    <div class="content">
+        <div class="row d-flex justify-content-around">
+            <div class="col-md-10">
+                <h4 class="mt-4">Latest Episodes</h4>
+            </div>
+            <div class="col-md-10 col-10 col-sm-10">
+                <div class="row">
+                    <div class="justify-content-center col-md-4 col-12 col-lg-4 pt-4" *ngFor="let city of cities">
+
+                        <div class="newCard"  style="background-image: linear-gradient(to bottom, rgba(46, 46, 46, 0) 5%, rgb(0, 0, 0)),url('{{city.cityPicture}}');">
+                            <div class="row d-flex justify-content-around">
+                                <div class="col-md-10 mt-4">
+                                    <small class="newAlert text-center">New</small>
+                                </div>
+                                <div class="col-md-10">
+                                    <h6 class="text-center">{{city.cityName}}</h6> 
+                                </div>
+                                <div class="col-md-10">
+                                    <p class="text-center">{{city.cityDescription}}</p> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-10">
+                <h4 class="mt-4">Live Now</h4>
+            </div>
+        </div>
+
+    </div>

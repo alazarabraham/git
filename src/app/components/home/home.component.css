@@ -1,0 +1,91 @@
+.carousel {
+  background: linear-gradient(to left, rgba(46, 46, 46, 0) 40%, rgb(0, 0, 0)), url('https://hdwallsource.com/img/2016/9/sushi-food-wallpaper-background-49725-51404-hd-wallpapers.jpg');
+
+  color: rgb(245, 230, 230);
+  min-height: 600px;
+  background-color: #1b1b1b;
+
+}
+
+
+
+
+.carousel .row .col-md-10 small {
+  border: 2px solid white;
+  width: 25%;
+  padding: 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.carousel h6 {
+  text-transform: uppercase;
+}
+
+.fa-chevron-left,
+.fa-chevron-right {
+  border: 1px solid white;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 15px;
+  padding: 5%;
+  margin-right: 30%;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  height: 40px;
+  width: 40px;
+}
+
+.fa-chevron-left:hover,
+.fa-chevron-right:hover {
+  transform: scale(1.15);
+
+}
+
+.content {
+  background-color: #1f1f1f;
+  color: rgb(245, 230, 230);
+  min-height: 100vh;
+}
+
+
+
+
+.newCard:hover {
+  transform: scale(1.05);
+}
+
+
+.newCard h6 {
+  margin-top: 30%;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.newCard p {
+  color: rgb(245, 230, 230);
+  padding: 20px 20px;
+}
+
+
+.btn {
+  background: #000514;
+  border: .5px solid rgb(228, 228, 228);
+  color: white;
+  border-radius: 24px;
+  font-size: 18px;
+  font-weight: 500;
+
+}
+
+.btn:hover {
+  background: #000514;
+  border: .5px solid rgb(228, 228, 228);
+  color: white;
+  border-radius: 24px;
+  font-size: 18px;
+  font-weight: 500;
+  transform: scale(1.05);
+
+}
